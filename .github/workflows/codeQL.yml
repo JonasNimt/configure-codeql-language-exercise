@@ -11,6 +11,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
+       language: [go, python]
        include:
          - language: go
            build-mode: none
